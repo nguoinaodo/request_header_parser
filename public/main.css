@@ -1,7 +1,7 @@
 body {
   background-image: url("http://kiemtienmmo.org/wp-content/uploads/2016/04/12968106_1704861663086864_2346184198540610006_o.jpg");
   background-size: 120%;
-  background-position: 40% 60%;
+  background-position: 20% 80%;
 }
 
 #content {
@@ -12,7 +12,7 @@ body {
   color: #000;
   padding: 30px;
   margin-left: 70px;
-  margin-top: 50px;
+  margin-top: 40px;
   width: 600px;
   opacity: 1;
 }
