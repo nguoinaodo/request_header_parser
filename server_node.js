@@ -13,7 +13,7 @@ http.createServer(function(req, res) {
     });    
     var pathName = url.parse(req.url).pathname;    
     
-    if (pathName === '/whoami') {
+    if (pathName === '/') {
         res.writeHead(200, {'content-type': 'application/json'});
         res.write(info);
     }

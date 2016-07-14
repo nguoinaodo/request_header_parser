@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 
-app.get('/whoami', function(req, res) {
+app.get('/', function(req, res) {
     var header = req.headers;
     var ip = header['x-forwarded-for'],
         langArr = header['accept-language'].split(/\;|\,/),
